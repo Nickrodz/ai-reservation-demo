@@ -1,0 +1,39 @@
+# Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/output folders
+dist/
+build/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Twilio or ElevenLabs credentials (if stored locally)
+twilio-credentials.json
+elevenlabs-api-key.json
+
+# Google service account JSON
+service-account.json
+
+# Misc
+*.tgz
